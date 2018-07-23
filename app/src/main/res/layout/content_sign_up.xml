@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_100"
+        android:orientation="vertical"
+        android:weightSum="4"
+        tools:context="online.hajamat.imfarhad.hajamat.activities.SignUp"
+        tools:showIn="@layout/activity_sign_up">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/icon"
+                style="@style/ThemeOverlay.FirebaseIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/desc_firebase_lockup"
+                android:src="@drawable/ic_launcher_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/signup_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/title_bottom_margin"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:hint="@string/name_hint"
+                    android:inputType="text"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/title_bottom_margin"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:hint="@string/email_hint"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/title_bottom_margin"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:hint="@string/password_hint"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/signup_repeat_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/title_bottom_margin"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:hint="@string/repeat_password_hint"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/email_password_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_horizontal_margin">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/email_sign_in_button"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_in"
+                    android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/create_account_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already_have_account"
+                    android:textSize="@dimen/font_size_medium"
+                    android:gravity="center"
+                    android:onClick="login"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
