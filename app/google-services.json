@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66290776452",
+    "firebase_url": "https://hajamat-6bde8.firebaseio.com",
+    "project_id": "hajamat-6bde8",
+    "storage_bucket": "hajamat-6bde8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66290776452:android:130fe7964e2f3c6e",
+        "android_client_info": {
+          "package_name": "online.hajamat.imfarhad.hajamat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66290776452-n9r1ka7kql0q8himubdn3b1ra06ht1to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "online.hajamat.imfarhad.hajamat",
+            "certificate_hash": "a26763dd531f5db1caf29f000853033979cb52dd"
+          }
+        },
+        {
+          "client_id": "66290776452-68v4l2flrvpmc0rshmass9drcpt74l82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXKMaO9fEIXdFexpsSEm8h3kivhq2i6JA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66290776452-68v4l2flrvpmc0rshmass9drcpt74l82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
